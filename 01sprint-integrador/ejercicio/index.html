@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />	<link rel="stylesheet" type="text/css" href="./styles/styles.css">
+	<title>Pale Blue Dot</title>
+	<link rel="stylesheet" href="./styles/all.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<header>
+		<!-- mobile menu  -->
+		<div class="mobile-menu">
+			<div  style="display: flex;justify-content: space-between;">
+			<img src="./images/icons/logo.svg" alt="menu" style="margin: 0 1em">
+		 
+			<label for="navi-toggle" class="navigation-button">
+				<img src="./images/icons/hamburguer-icon.svg" id="menu" alt="menu" />
+			</label>
+			</div>
+			<input type="checkbox" id="navi-toggle" class="navigation-checkbox" />
+			  <div class="menu-list-mobile">
+				<div class="menu-list-mobile-item">
+					EPISODIOS
+				</div>
+				<div class="menu-list-mobile-item">
+					NOSOTROS
+				</div>
+				<div class="menu-list-mobile-item">
+					ENTREVISTAS
+				</div>
+				<div class="menu-list-mobile-item">
+					TÓPICOS
+				</div>
+			  </div>
+		</div>
+		<!-- fin mobile -->
+		<!-- desktop  -->
+		<nav id="desktop-menu">
+			<img src="./images/icons/logo.svg" alt="menu" style="margin: 0 1em">
+			<ul>
+				<li class="text-link">EPISODIOS</li>
+				<li class="text-link">NOSOTROS</li>
+				<li class="text-link">ENTREVISTAS</li>
+				<li class="text-link">TÓPICOS</li>
+			</ul> 	
+		</nav>
+		<!-- fin desktop -->
+	</header>
+	<!-- portada -->
+	<section class="portada">
+		<h2>
+			Hello <span>world</span> pale blue dot
+		</h2>
+		<p class="parrafos">
+			Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.
+		</p>
+		<button class="button portada-btn">
+			CONOCÉ MÁS
+		</button>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+	    <polygon fill="white" points="0,100 100,0 100,100"/>
+	  	</svg>
+	</section>
+	<!-- EPISODIOS -->
+	<section class="episodios">
+		<h4 class="titulo white mt1">Episodios</h4>
+		<div class="div-podcast">
+			<iframe class="podcast" src="https://open.spotify.com/embed-podcast/show/66QqESI615YvzP3fMTMFZU" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+			<iframe class="podcast" src="https://open.spotify.com/embed-podcast/show/6SDtBvMwQPx6FRegCkIMRg" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+		</div>
+		<div class="div-podcast">
+			<iframe class="podcast" src="https://open.spotify.com/embed-podcast/show/5bqgVDbs8jvgsp03Mj2Et8" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+			<iframe class="podcast" src="https://open.spotify.com/embed-podcast/show/6AbRJMvrNOIuxNofpYFvWA" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+		</div>
+		<!-- svg -->
+	</section>
+	<!-- IMG CELULAR -->
+	<section>
+		<div id="img-celular">
+			<img src="./images/phone.png" alt="Imagen celular">
+			<div>
+				<h4 class="titulo blue">De dónde venimos</h4>
+				<p class="parrafos">Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+			</div>
+		</div>
+	</section>
+	<!-- INVITADAS -->
+	<section id="invitadas">
+		<h4 class="titulo blue mt1">Invitadas/os estelares</h4>
+		<div class="grupo-fotos">
+			<img src="./images/grace.png" alt="" class="fotos">
+			<img src="./images/kattie.png" alt="" class="fotos">
+			<img src="./images/margaret.png" alt="" class="fotos">	
+		</div>
+		<div class="grupo-fotos">
+			<img src="./images/era1103.png" alt="" class="fotos">
+			<img src="./images/cables.png" alt="" class="fotos">
+			<img src="./images/susan.png" alt="" class="fotos">	
+		</div>				
+	</section>
+	<!-- footer -->
+	<section id="footer">
+		<p>© 2019— Hello blue pale dot</p>
+		<ul>
+			<li>
+				<i class="fab fa-spotify"></i>
+			</li>
+			<li
+				><i class="fab fa-instagram"></i>
+			</li>
+			<li>
+				<i class="fab fa-twitter"></i>
+			</li>
+			<li>
+				<i class="fab fa-facebook"></i>
+			</li>
+			<li>
+				<i class="fab fa-telegram"></i>
+			</li>
+		</ul>
+	</section>
+</body>
+</html>

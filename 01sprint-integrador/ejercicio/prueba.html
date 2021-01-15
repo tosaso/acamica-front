@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Menu Desplazable</title>
+  </head>
+  <body>
+    <style>
+      .mostrar-menu {
+        height: 30px;
+        width: 30px;
+        background-color: pink;
+        cursor: pointer;
+      }
+      .menu-desplazable {
+        height: 200px;
+        width: 100%;
+        background-color: hotpink;
+        cursor: pointer;
+        transition: all .4s ease;
+        position: fixed;
+        transform: translate(-100%);
+      }
+
+      #desplegar {
+        display: none;
+      }
+
+      #desplegar:checked ~ .menu-desplazable {
+        transform: translate(0);
+      }
+
+      /* otro ejercicio */
+       .linea {
+        height: 10%;
+        width: 75%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all 0.2s ease;
+      }
+
+      .linea-top {
+        top: 25%;
+      }
+
+      .linea-low {
+        top: 75%;
+      }
+ 
+      .custom-checkbox:checked + .label-burger .linea-low {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+        background-color: red;
+      }
+
+      .custom-checkbox:checked + .label-burger .linea-med {
+        opacity: 0;
+      }
+
+      .custom-checkbox:checked + .label-burger .linea-top {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        background-color: red;
+      }
+
+      #burger {
+        display: none;
+      }
+
+      .label-burger {
+        display: inline-block;
+        height: 9rem;
+        width: 9rem;
+        padding: 0.1rem;
+        cursor: pointer;
+        border: 1px dotted;
+        position: relative;
+      }
+    </style>
+    
+    
+    <div>
+      <input id="desplegar" type="checkbox">
+      <label for="desplegar">
+        <div class="mostrar-menu"></div>
+      </label>
+      <div class="menu-desplazable">
+    </div>
+
+    <input id="burger" type="checkbox" class="custom-checkbox" />
+    <label for="burger" class="label-burger">
+      <div class="linea linea-top"></div>
+      <div class="linea linea-med"></div>
+      <div class="linea linea-low"></div>
+    </label>
+  </body>
+</html>
