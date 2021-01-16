@@ -11,6 +11,7 @@
 	padding: 0 1em;
 	font-family: 'IBM Plex Mono', monospace;
 	text-decoration: none; 
+
 }
 
 .text-link a:hover{
@@ -110,6 +111,7 @@ body{
 	display: flex;
 	padding-left: 20px;
 	font-family: 'IBM Plex Mono', monospace;	
+	text-decoration: none; 
 }
 
 #navi-toggle {
@@ -130,49 +132,7 @@ body{
 
 /* MENU HAMBURGUESA */
 
-.container-burger {
-        height: 20px;
-        width: 20px;
-        padding: 0.1rem;
-        cursor: pointer;
-        border: 1px solid;
-        position: relative;
-      }
 
-      .linea {
-        height: 10%;
-        width: 75%;
-        background-color: rgb(0, 0, 0);
-        border-radius: 10px;
-        transition: all 0.2s ease;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-
-      .linea-top {
-        top: 25%;
-      }
-
-      .linea-low {
-        top: 75%;
-      }
-
-      .custom-checkbox:checked + .label-burger .container-burger .linea-low {
-        top: 50%;
-        transform: translate(-50%, -50%) rotate(-45deg);
-        background-color: red;
-      }
-
-      .custom-checkbox:checked + .label-burger .container-burger .linea-med {
-        display: none;
-      }
-      .custom-checkbox:checked + .label-burger .container-burger .linea-top {
-        top: 50%;
-        transform: translate(-50%, -50%) rotate(45deg);
-        background-color: red;
-      }
 /* FIN MENU HAMBURGUESA */
 
 
