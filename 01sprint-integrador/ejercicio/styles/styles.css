@@ -233,6 +233,8 @@ body{
     padding-top: 3rem;
 }
 
+
+
 .div-podcast {
 	margin-top: 1em 0 ;
 }
@@ -261,6 +263,9 @@ body{
   height: 10vw;
 }
 
+
+
+
 /* ----- INVITADAS ----- */
 .fotos{
 	width: 100%;
@@ -273,6 +278,35 @@ body{
 #invitadas h4{
 	margin: 0.5em;
 }
+
+
+
+/* ----- ICONOS ----- */
+#iconos {
+	margin-top:3em;
+}
+
+.icon-div{
+	text-align: center;
+}
+
+.bloques{
+	padding:4em 2em 0;
+}
+
+.bloques:first-child{
+	padding: 2em 0;
+}
+
+.icon-div p{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 24px;
+	color: #060A24;
+	font-weight: bold;
+	letter-spacing: 0;
+}
+
+
 
 
 /* ----- FOOTER ----- */
@@ -302,7 +336,7 @@ body{
 
 /*  ----------------   MOBILE  ----------------  */
 @media (min-width: 321px) {
-	 #desktop-menu {
+ 	#desktop-menu {
 		display: flex;
 		justify-content: space-between;
 		margin: 1em 1em;
@@ -342,6 +376,7 @@ body{
 		height: 57rem;
 	}
 
+
 	.div-podcast{
 		display: flex;
 		justify-content: space-around;
@@ -370,6 +405,22 @@ body{
 		width: 33%
 	}
 
+	/* ICONOS */
+	.icon-div{
+		display: flex;
+		width: 900px;
+		margin: 0 auto;
+	}
+
+	.bloques{
+	padding:0 2em;
+	}
+
+	.bloques:first-child{
+		padding: 0 2em;
+	}
+
+	
 	/* footer */
 	#footer {
 		display: flex;
