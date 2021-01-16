@@ -1,3 +1,7 @@
+html{
+	scroll-behavior: smooth;
+}
+
 * {
 	box-sizing: border;
 	margin: 0;
@@ -232,6 +236,7 @@ body{
 	clip-path: polygon(0% 4%, 100% 0%, 100% 80%, 0% 85%);
 	position: absolute;
 	padding-top: 3rem;
+	max-width: 1200px;
 }
 
 
@@ -326,6 +331,7 @@ svg {
 	background-image: linear-gradient(225deg, #0000FF, #0000A3);
 	clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);    position: absolute;
 	padding-top: 3rem;
+	max-width: 1200px;
 }
 
 #cta .contenedor{
