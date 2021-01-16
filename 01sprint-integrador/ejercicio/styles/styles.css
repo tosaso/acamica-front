@@ -91,6 +91,49 @@ body{
 	display: none;
 }
 
+.mostrar-menu {
+        height: 30px;
+        width: 30px;
+        background-color: pink;
+        cursor: pointer;
+      }
+      .menu-desplazable {
+        width: 100%;
+        background-color: #0000EC;
+        cursor: pointer;
+        transition: all .4s ease;
+        position: fixed;
+        transform: translate(100%);
+      }
+
+      .menu-desplazable ul{
+      	list-style: none;
+      }
+
+      .text-link{
+      	margin: 1.5em 0;
+      }
+
+      .menu-desplazable ul .text-link a{
+      	color: white;
+      }
+
+
+      #desplegar {
+        display: none;
+      }
+
+      #desplegar:checked ~ .menu-desplazable {
+        transform: translate(-90.7%);
+      }
+
+/*   MENU HAMBURGUESA */
+
+
+
+
+
+/*
 .navigation-button {
 	height: 50px;
 	width: 50px;
@@ -114,7 +157,7 @@ body{
 	text-decoration: none; 
 }
 
-#navi-toggle {
+#burger {
 	display: none;
 }
 
@@ -122,15 +165,15 @@ body{
 	display: none;
 }
 
-#navi-toggle:checked + .menu-list-mobile {
+#burger:checked + .menu-list-mobile {
 	display: block;
 }
 
-#navi-toggle:checked + #menu{
+#burger:checked + #menu{
 	display: none;
 }
 
-/* MENU HAMBURGUESA */
+
 
 
 /* FIN MENU HAMBURGUESA */
