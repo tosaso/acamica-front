@@ -3,14 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />	<link rel="stylesheet" type="text/css" href="./styles/styles.css">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />	<link rel="stylesheet" type="text/css" href="./styles/styles.css">
 	<title>Pale Blue Dot</title>
 	<link rel="stylesheet" href="./styles/all.css">
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"> 
 </head>
 <body>
 	<header>
@@ -18,75 +18,71 @@
 		<div class="mobile-menu">
 			<div  style="display: flex;justify-content: space-between;">
 				<img src="./images/icons/logo.svg" alt="menu" style="margin: 0 1em">
-
 				<div>
-			      <input id="desplegar" type="checkbox">
+					<input id="desplegar" type="checkbox">
+					<label for="desplegar" class="label-burger">
+						<div class="mostrar-menu ">
+							<div class="linea linea-top"></div>
+							<div class="linea linea-med"></div>
+							<div class="linea linea-low"></div>
+						</div>
+					</label>
+					<div class="menu-desplazable">
+						<ul>
+							<li class="text-link">
+								<a href="#episodios">
+									EPISODIOS
+								</a>
+							</li>
+							<li class="text-link">
+								<a href="#img-celular">
+									NOSOTROS
+								</a>
+							</li>
+							<li class="text-link">
+								<a href="#invitadas">
+									ENTREVISTAS
+								</a>
+							</li>
+							<li class="text-link">
+								<a href="#iconos">
+									TÓPICOS
+								</a>
+							</li>
+						</ul> 	
+					</div>
 
-
-			      <label for="desplegar">
-			        <div class="mostrar-menu">
-			        	<div class="linea linea-top"></div>
-					    <div class="linea linea-med"></div>
-					    <div class="linea linea-low"></div>
-			        </div>
-			      </label>
-
-			      
-			      <div class="menu-desplazable">
-			      	<ul>
-						<li class="text-link">
-							<a href="#episodios">
-								EPISODIOS
-							</a>
-						</li>
-						<li class="text-link">
-							<a href="#img-celular">
-								NOSOTROS
-							</a>
-						</li>
-						<li class="text-link">
-							<a href="#invitadas">
-								ENTREVISTAS
-							</a>
-						</li>
-						<li class="text-link">
-							<a href="#iconos">
-								TÓPICOS
-							</a>
-						</li>
-					</ul> 	
-			    </div>
-
+				</div>
 			</div>
 		</div>
-		 <!-- fin mobile -->
-		<!-- desktop  -->
-		<nav id="desktop-menu">
-			<img src="./images/icons/logo.svg" alt="menu" style="margin: 0 1em">
-			<ul>
-				<li class="text-link">
-					<a href="#episodios">
-						EPISODIOS
-					</a>
-				</li>
-				<li class="text-link">
-					<a href="#img-celular">
-						NOSOTROS
-					</a>
-				</li>
-				<li class="text-link">
-					<a href="#invitadas">
-						ENTREVISTAS
-					</a>
-				</li>
-				<li class="text-link">
-					<a href="#iconos">
-						TÓPICOS
-					</a>
-				</li>
-			</ul> 	
-		</nav>
-		<!-- fin desktop --> 
+			<!-- fin mobile -->
+			<!-- desktop  -->
+			<nav id="desktop-menu">
+				<img src="./images/icons/logo.svg" alt="menu" style="margin: 0 1em">
+				<ul>
+					<li class="text-link">
+						<a href="#episodios">
+							EPISODIOS
+						</a>
+					</li>
+					<li class="text-link">
+						<a href="#img-celular">
+							NOSOTROS
+						</a>
+					</li>
+					<li class="text-link">
+						<a href="#invitadas">
+							ENTREVISTAS
+						</a>
+					</li>
+					<li class="text-link">
+						<a href="#iconos">
+							TÓPICOS
+						</a>
+					</li>
+				</ul> 	
+			</nav>
+			<!-- fin desktop --> 
 	</header>  
 	<!-- portada -->
 	<section class="portada">
@@ -100,8 +96,8 @@
 			CONOCÉ MÁS
 		</button>
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-	    <polygon fill="white" points="0,100 100,0 100,100"/>
-	  	</svg>
+			<polygon fill="white" points="0,100 100,0 100,100"/>
+		</svg>
 	</section>
 	<!-- EPISODIOS -->
 	<section id="episodios">
@@ -115,8 +111,8 @@
 			<div class="div-podcast relative">
 				<iframe class="podcast" src="https://open.spotify.com/embed-podcast/show/5bqgVDbs8jvgsp03Mj2Et8" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 				<iframe class="podcast" src="https://open.spotify.com/embed-podcast/show/6AbRJMvrNOIuxNofpYFvWA" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-		</div>			
-		<!-- svg -->
+			</div>			
+	<!-- svg -->	
 	</section>
 	<!-- IMG CELULAR -->
 	<section>
@@ -186,7 +182,7 @@
 				<i class="fab fa-spotify"></i>
 			</li>
 			<li
-				><i class="fab fa-instagram"></i>
+			><i class="fab fa-instagram"></i>
 			</li>
 			<li>
 				<i class="fab fa-twitter"></i>
@@ -199,5 +195,5 @@
 			</li>
 		</ul>
 	</section>
-</body>
-</html>
+	</body>
+	</html>
