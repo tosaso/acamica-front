@@ -78,7 +78,7 @@
 /* font-family: 'IBM Plex Mono', monospace; */
 
 body{
-	max-width:1200px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -444,7 +444,7 @@ body{
 	/* INVITADAS */
 	.grupo-fotos{
 		display: flex
-		max-width:1200px;
+		max-width: 1200px;
 	}
 	#invitadas img{
 		width: 33%
