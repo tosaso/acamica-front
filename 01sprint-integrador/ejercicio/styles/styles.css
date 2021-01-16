@@ -5,25 +5,27 @@
 }
 
 
-.text-link{
+.text-link a{
 	color: #060A24;
 	font-size: 16px;
 	padding: 0 1em;
 	font-family: 'IBM Plex Mono', monospace;
+	text-decoration: none; 
 }
 
-.text-link:hover{
+.text-link a:hover{
 	color: #00F3BB;
 	font-size: 16px;
 	text-decoration: line-through;
 	font-family: 'IBM Plex Mono', monospace;
 }  
 
-.text-link:active{
+.text-link a:active{
 	color: #060A24;
 	font-size: 16px;
 	text-decoration: line-through;
 	font-family: 'IBM Plex Mono', monospace;
+	text-decoration: none; 
 } 
 
 .button{
@@ -219,9 +221,8 @@ body{
 
 
 
-
 /* EPISODIOS */
-.episodios{
+#episodios{
 /*	padding: 1em 1em; */
 	 /* position: relative; */
 	 height: 75rem;
@@ -414,7 +415,7 @@ body{
 	}
 
 	/* EPISODIOS */
-	.episodios{
+	#episodios{
 		height: 45rem;
 	}
 	.rectangle{
