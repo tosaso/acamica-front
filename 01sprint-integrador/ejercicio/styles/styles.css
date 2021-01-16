@@ -224,6 +224,10 @@ body{
 	left: 0;
 }
 
+#episodios h4{
+		margin: 2em 0 0;
+	}
+
 .rectangle {
 	height: 93rem;
 	width: 100%;
@@ -412,6 +416,11 @@ svg {
 	#episodios{
 		height: 45rem;
 	}
+
+	#episodios h4{
+		margin: 2em 1em 0;
+	}
+
 	.rectangle{
 		height: 57rem;
 	}
