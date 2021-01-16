@@ -61,7 +61,7 @@
 	color:#060A24;
 }
 
-.mt1{
+.my1{
 	margin: 1em 0;
 }
 
@@ -264,6 +264,14 @@ body{
 /* ----- INVITADAS ----- */
 .fotos{
 	width: 100%;
+}
+
+#invitadas{
+	margin-top:5em;
+}
+
+#invitadas h4{
+	margin: 0.5em;
 }
 
 
