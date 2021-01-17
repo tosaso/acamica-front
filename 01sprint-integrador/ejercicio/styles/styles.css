@@ -186,7 +186,7 @@ body{
 
 /* PORTADA */
 .portada{
-	padding: 2em 1em;
+	padding: 7em 1em;
 }
 
 .portada-btn{
@@ -404,7 +404,7 @@ svg {
 		font-family: 'IBM Plex Mono', monospace;
 	}
 
-	.mobile-menu {
+	#mobile-menu {
 		display: none;
 	}
 
