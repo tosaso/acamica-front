@@ -389,7 +389,7 @@ svg {
 
 
 /*  ----------------   MOBILE  ----------------  */
-@media (min-width: 321px) {
+@media (min-width: 481px) {
 	#desktop-menu {
 		display: flex;
 		justify-content: space-between;
