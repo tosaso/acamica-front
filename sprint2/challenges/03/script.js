@@ -53,13 +53,13 @@ function chequear(lista,nombre){
 			lista.splice(a,1)
 		}
 	}if (a >= 0) {
-		console.log(lista)
+		mostrarArray(lista)
 	}else{
 		console.log(a)
 	}
 }
 
-chequear(apellidos,"garcia")
+chequear(apellidos,"gomez")
 
 
 function mostrarArray (a){
@@ -68,6 +68,6 @@ function mostrarArray (a){
 	}
 }
 
-mostrarArray(usuarios)
+
 
 
